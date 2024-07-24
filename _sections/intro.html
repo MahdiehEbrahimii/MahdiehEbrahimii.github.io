@@ -1,17 +1,88 @@
----
-title: Intro
-cover-photo: assets/images/banner.jpg
-cover-photo-alt: example cover photo
-auto-header: none
-icon: fa-comment
-order: 1
----
-<header>
-  <h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-  site template designed by <a href="http://html5up.net/prologue">HTML5 UP</a>.</h2>
-  <p>Adapted for Jekyll by <a href=https://chrisbobbe.github.io/>Chris Bobbe</a>. Get started on <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">GitHub!</a></p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
 
-<footer>
-  <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-</footer>
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .intro-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .text-content {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .text-content h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .text-content p {
+            margin: 10px 0 0;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: #007bff;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        footer a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="intro-container">
+            <img src="assets/images/avatar.jpg" alt="Your Photo" class="profile-photo">
+            <div class="text-content">
+                <h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+                site template designed by <a href="http://html5up.net/prologue">HTML5 UP</a>.</h2>
+                <p>Adapted for Jekyll by <a href="https://chrisbobbe.github.io/">Chris Bobbe</a>. Get started on <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">GitHub!</a></p>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+    </footer>
+</body>
+</html>
+

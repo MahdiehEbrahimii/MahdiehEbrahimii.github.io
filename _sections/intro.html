@@ -6,17 +6,98 @@ auto-header: none
 icon: fa-comment
 order: 1
 ---
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Profile and Logo Example</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #logo {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #logo #home-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .image.avatar48 img {
+            width: 96px; /* Adjust the size as needed */
+            height: 96px; /* Adjust the size as needed */
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px auto; /* Center the image and add bottom margin */
+        }
+
+        #title {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        #logo p {
+            margin: 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-image {
+            margin-right: 20px;
+        }
+
+        .profile-image img {
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-text {
+            max-width: 600px; /* Adjust the width as needed */
+        }
+
+        .profile-text .alt {
+            margin: 0;
+        }
+
+        .profile-text p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
+    <!-- Logo -->
+    <div id="logo">
+        <a href="{{- '/' | absolute_url -}}" id="home-link">
+            <span class="image avatar48"><img src="{{- site.avatar | relative_url -}}" alt="{{- site.author | default: 'unknown author' | prepend: 'Avatar of ' -}}" /></span>
+            <h1 id="title">{{- site.title -}}</h1>
+            <p>{{- site.subtitle -}}</p>
+        </a>
+    </div>
+
+    <!-- Profile Section -->
     <header>
         <div class="profile-container">
             <div class="profile-image">
-                <img src="assets/images/avatar.jpg" alt="Profile Picture">
+                <img src="assets/images/pic02.jpg" alt="Profile Picture">
             </div>
             <div class="profile-text">
                 <h2 class="alt">Hi,</h2>
@@ -26,46 +107,7 @@ order: 1
         </div>
     </header>
 </body>
-
-      
-<footer>
-  <a href="#welcome-to-jekyll" class="button scrolly">Curriculum Vitae</a>
-</footer>
-
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    padding: 20px;
-    background-color: #f4f4f4;
-}
-
-.profile-container {
-    display: flex;
-    align-items: center;
-}
-
-.profile-image {
-    margin-right: 20px;
-}
-
-.profile-image img {
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Adjust the size as needed */
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.profile-text {
-    max-width: 600px; /* Adjust the width as needed */
-}
-
-.profile-text .alt {
-    margin: 0;
-}
+</html>
 
 .profile-text p {
     margin: 0;

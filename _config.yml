@@ -53,8 +53,8 @@ linkedin_url:
 github_url: https://github.com/eurusebr
 stackoverflow_url:
 pinterest_url:
-googlescholar: https://scholar.google.com/citations?hl=en&user=pHOgThcAAAAJ
-url_goodreads: https://www.goodreads.com/user/show/3669193-mahdieh-ebrahimi 
+googlescholar_url: https://scholar.google.com/citations?hl=en&user=pHOgThcAAAAJ
+goodreads_url: https://www.goodreads.com/user/show/3669193-mahdieh-ebrahimi 
 
 # Google Analytics Tracking ID goes here:
 google_analytics:

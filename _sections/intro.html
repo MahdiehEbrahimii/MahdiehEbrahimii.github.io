@@ -82,33 +82,4 @@ order: 1
             margin: 0;
         }
     </style>
-</head>
-<body>
-    <!-- Logo -->
-    <div id="logo">
-        <a href="{{- '/' | absolute_url -}}" id="home-link">
-            <span class="image avatar48"><img src="{{- site.avatar | relative_url -}}" alt="{{- site.author | default: 'unknown author' | prepend: 'Avatar of ' -}}" /></span>
-            <h1 id="title">{{- site.title -}}</h1>
-            <p>{{- site.subtitle -}}</p>
-        </a>
-    </div>
 
-    <!-- Profile Section -->
-    <header>
-        <div class="profile-container">
-            <div class="profile-image">
-                <img src="assets/images/pic02.jpg" alt="Profile Picture">
-            </div>
-            <div class="profile-text">
-                <h2 class="alt">Hi,</h2>
-                <p>I am a graduate student at TU Darmstadt working on various models, including percolation, soft matter, and quantum mechanics.
-                My role involves identifying patterns in natural phenomena and developing models to explain them.</p>
-            </div>
-        </div>
-    </header>
-</body>
-</html>
-
-.profile-text p {
-    margin: 0;
-}

@@ -1,8 +1,46 @@
 <!-- Logo -->
-<div id="logo">
-  <a href="{{- '/' | absolute_url -}}" id="home-link">
-    <span class="image avatar48"><img src="{{- site.avatar | relative_url -}}" alt="{{- site.author | default: 'unknown author' | prepend: 'Avatar of ' -}}" /></span>
-    <h1 id="title">{{- site.title -}}</h1>
-    <p>{{- site.subtitle -}}</p>
-  </a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Ensure the background is transparent */
+    #logo {
+      background: transparent;
+    }
+    #home-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+    }
+    .image.avatar48 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+    }
+    .image.avatar48 img {
+      border-radius: 50%; /* Optional: makes the image round */
+      background: transparent;
+    }
+    #title, #logo p {
+      color: #000; /* Adjust as necessary */
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <div id="logo">
+    <a href="{{- '/' | absolute_url -}}" id="home-link">
+      <span class="image avatar48">
+        <img src="{{- site.avatar | relative_url -}}" alt="{{- site.author | default: 'unknown author' | prepend: 'Avatar of ' -}}" />
+      </span>
+      <h1 id="title">{{- site.title -}}</h1>
+      <p>{{- site.subtitle -}}</p>
+    </a>
+  </div>
+</body>
+</html>

@@ -17,6 +17,7 @@
   {%- assign _page_description = page.description | default: site.description | default: _page_title | escape -%}
 
   <title>{{- _page_title -}}</title>
+  #title {font-size: 1.5em; /* Adjust the size as needed */}
   <meta name="description" content="{{- _page_description -}}" />
   <meta name="author" content="{{- site.author -}}" />
   

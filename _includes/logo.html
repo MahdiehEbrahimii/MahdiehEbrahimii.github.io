@@ -11,8 +11,8 @@
     }
     #home-link {
       display: flex;
-      flex-direction: row; /* Horizontal layout */
-      align-items: center; /* Center items vertically */
+      flex-direction: column; /* Change to column for vertical layout */
+      align-items: center; /* Center items horizontally */
       text-decoration: none;
     }
     .image.avatar48 {
@@ -20,7 +20,7 @@
       align-items: center;
       justify-content: center;
       background: transparent;
-      margin-right: 10px; /* Add some space between the logo and the title */
+      margin-bottom: 10px; /* Add some space below the logo */
       width: 48px; /* Ensure fixed size for the avatar container */
       height: 48px; /* Ensure fixed size for the avatar container */
     }
@@ -42,6 +42,7 @@
     .text-container {
       display: flex;
       flex-direction: column;
+      align-items: center; /* Center text horizontally */
     }
   </style>
 </head>

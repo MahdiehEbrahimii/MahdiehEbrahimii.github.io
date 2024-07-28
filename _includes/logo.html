@@ -11,7 +11,7 @@
     }
     #home-link {
       display: flex;
-      flex-direction: row; /* Change to row for horizontal layout */
+      flex-direction: row; /* Horizontal layout */
       align-items: center; /* Center items vertically */
       text-decoration: none;
     }
@@ -20,11 +20,15 @@
       align-items: center;
       justify-content: center;
       background: transparent;
-      margin-right: 100px; /* Add some space between the logo and the title */
+      margin-right: 10px; /* Add some space between the logo and the title */
+      width: 48px; /* Ensure fixed size for the avatar container */
+      height: 48px; /* Ensure fixed size for the avatar container */
     }
     .image.avatar48 img {
       border-radius: 50%; /* Optional: makes the image round */
       background: transparent;
+      width: 100%; /* Ensure the image fits the container */
+      height: 100%; /* Ensure the image fits the container */
     }
     #title {
       font-size: 1.5em; /* Adjust the size as needed */

@@ -1,4 +1,3 @@
-<!-- Logo -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +11,8 @@
     }
     #home-link {
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      flex-direction: row; /* Change to row for horizontal layout */
+      align-items: center; /* Center items vertically */
       text-decoration: none;
     }
     .image.avatar48 {
@@ -21,13 +20,19 @@
       align-items: center;
       justify-content: center;
       background: transparent;
+      margin-right: 10px; /* Add some space between the logo and the title */
     }
     .image.avatar48 img {
       border-radius: 50%; /* Optional: makes the image round */
       background: transparent;
     }
-    #title, #logo p {
+    #title {
+      font-size: 1.5em; /* Adjust the size as needed */
       color: #000; /* Adjust as necessary */
+    }
+    #home-link p {
+      color: white;
+      margin: 0; /* Ensure there's no extra margin */
     }
   </style>
 </head>
@@ -38,8 +43,10 @@
       <span class="image avatar48">
         <img src="{{- site.avatar | relative_url -}}" alt="{{- site.author | default: 'unknown author' | prepend: 'Avatar of ' -}}" />
       </span>
-      <h1 id="title">{{- site.title -}}</h1>
-      <p>{{- site.subtitle -}}</p>
+      <div>
+        <h1 id="title">{{- site.title -}}</h1>
+        <p>{{- site.subtitle -}}</p>
+      </div>
     </a>
   </div>
 </body>

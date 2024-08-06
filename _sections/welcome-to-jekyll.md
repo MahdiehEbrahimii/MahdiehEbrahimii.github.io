@@ -9,7 +9,7 @@ order: 4
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <a href="https://github.com/eurusebr/mahdieh.github.io/assets/file/Mahdieh_Ebrahimi_CV.pdf" download>Download My Resume</a>
+    <a href="https://github.com/eurusebr/mahdieh.github.io/assets/files/Mahdieh_Ebrahimi_CV.pdf" download>Download My Resume</a>
 </body>
 </html>
 

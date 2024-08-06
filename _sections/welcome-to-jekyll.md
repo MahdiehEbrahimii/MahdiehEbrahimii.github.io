@@ -9,7 +9,7 @@ order: 4
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <a href="assets/files/Mahdieh_Ebrahimi_CV.pdf" download>Download My Resume</a>
+    <p<a href="assets/files/Mahdieh_Ebrahimi_CV.pdf" download>My Resume</a></p>
 
 <h1>Selected Papers:</h1>
 

@@ -16,9 +16,7 @@ order: 4
 <p class="paper-ref">
 										<a href="https://arxiv.org/abs/2312.04518" 
 										target="_blank">C. Lamman et al., “Redshift dependent RSD bias from Intrinsic Alignment with DESI Y1 Spectra”, Submitted to MNRAS Dec 2023.</a>
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="doc/fakeRSD_spectra_summary.pdf"> Click here for an accessible summary of this paper!</a>
-		
-										</p>											
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="doc/fakeRSD_spectra_summary.pdf"> Click here for an accessible summary of this paper!</a></p>											
 
 
 </body>

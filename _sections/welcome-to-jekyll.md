@@ -19,7 +19,7 @@ order: 4
 
 <p class="paper-ref">
 	<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024312" 
-	target="_blank">Mohadeseh Feshanjerdi, Amir Ali Masoudi, Peter Grassberger, and Mahdieh Ebrahimi, “Aftermath epidemics: Percolation on the sites visited by generalized random walks”,  Published 24 August 2023.</a></p>
+	target="_blank">Mohadeseh Feshanjerdi et al., “Aftermath epidemics: Percolation on the sites visited by generalized random walks”,  Published 24 August 2023.</a></p>
 
 <p class="paper-ref">
 	<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.012310" 

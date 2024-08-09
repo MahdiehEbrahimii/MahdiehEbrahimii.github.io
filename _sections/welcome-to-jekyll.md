@@ -13,21 +13,23 @@ order: 4
 
 <h1>Selected Papers:</h1>
 
-<p class="paper-ref">
-	<a href="https://arxiv.org/abs/2404.16533" 
-	target="_blank">Lukas Hecht et al., “AMEP: The Active Matter Evaluation Package for Python”.</a></p>
+<ul>
+    <li class="paper-ref">
+        <a href="https://arxiv.org/abs/2404.16533" target="_blank">Lukas Hecht et al., “AMEP: The Active Matter Evaluation Package for Python”.</a>
+    </li>
 
-<p class="paper-ref">
-	<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024312" 
-	target="_blank">Mohadeseh Feshanjerdi et al., “Aftermath epidemics: Percolation on the sites visited by generalized random walks”,  Published 24 August 2023.</a></p>
+    <li class="paper-ref">
+        <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024312" target="_blank">Mohadeseh Feshanjerdi et al., “Aftermath epidemics: Percolation on the sites visited by generalized random walks”, Published 24 August 2023.</a>
+    </li>
 
-<p class="paper-ref">
-	<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.012310" 
-	target="_blank">A Kargaran, M Ebrahimi et al., “Quartic balance theory: Global minimum with imbalanced triangles”,  Published 17 July 2020.</a></p>											
-
+    <li class="paper-ref">
+        <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.012310" target="_blank">A Kargaran, M Ebrahimi et al., “Quartic balance theory: Global minimum with imbalanced triangles”, Published 17 July 2020.</a>
+    </li>
+</ul>
 
 </body>
 </html>
+
 
 
     

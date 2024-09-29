@@ -25,11 +25,11 @@ order: 4
     </li>
 </ul>
 <ul>
-
     <li class="paper-ref">
         <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024312" target="_blank">Mohadeseh Feshanjerdi et al., “Aftermath epidemics: Percolation on the sites visited by generalized random walks”, Published 24 August 2023.</a>
     </li>
-
+</ul>
+<ul>
     <li class="paper-ref">
         <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.012310" target="_blank">A Kargaran, M Ebrahimi et al., “Quartic balance theory: Global minimum with imbalanced triangles”, Published 17 July 2020.</a>
     </li>

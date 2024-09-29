@@ -7,12 +7,6 @@ order: 4
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            text-align: left;
-            direction: ltr;
-        }
-    </style>
 </head>
 <body>
     <a href="assets/files/Mahdieh_Ebrahimi_CV.pdf" download>My Resume</a>

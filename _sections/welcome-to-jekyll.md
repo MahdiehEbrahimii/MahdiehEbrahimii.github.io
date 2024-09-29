@@ -23,6 +23,8 @@ order: 4
     <li class="paper-ref">
         <a href="https://arxiv.org/abs/2404.16533" target="_blank">Lukas Hecht et al., “AMEP: The Active Matter Evaluation Package for Python”.</a>
     </li>
+</ul>
+<ul>
 
     <li class="paper-ref">
         <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.108.024312" target="_blank">Mohadeseh Feshanjerdi et al., “Aftermath epidemics: Percolation on the sites visited by generalized random walks”, Published 24 August 2023.</a>

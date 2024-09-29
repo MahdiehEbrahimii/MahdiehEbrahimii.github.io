@@ -17,7 +17,7 @@ order: 4
 <body>
     <a href="assets/files/Mahdieh_Ebrahimi_CV.pdf" download>My Resume</a>
 
-<h1>Selected Papers:</h1>
+<h2>Selected Papers:</h2>
 
 <ul>
     <li class="paper-ref">

@@ -6,13 +6,10 @@ icon: fa-book
 order: 3
 ---
 
-<a href="#" class="image featured">
-  <img src="assets/images/test1.jpg" alt="" style="width: 50%; height: auto;" />
-</a>
-
-<a href="#" class="image featured">
-  <img src="assets/images/test2.jpg" alt="" style="width: 50%; height: auto;" />
-</a>
+<div class="image-wrapper">
+  <img src="assets/images/test1.jpg" alt="Image 1" class="side-by-side" />
+  <img src="assets/images/test2.jpg" alt="Image 2" class="side-by-side" />
+</div>
 
 Darmstadt, Luisenplatz, Monday 27/01/2025.
 

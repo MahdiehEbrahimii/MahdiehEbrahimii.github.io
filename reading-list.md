@@ -1,6 +1,6 @@
 ---
 title: Photo Gallery
-subtitle: I take random photos and here are some of them:
+subtitle: I take random photos and here are some of them
 layout: "page"
 icon: fa-book
 order: 3

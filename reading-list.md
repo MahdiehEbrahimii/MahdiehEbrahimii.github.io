@@ -11,7 +11,7 @@ order: 3
 </a>
 
 <a href="#" class="image featured">
-  <img src="assets/images/test1.jpg" alt="" style="width: 50%; height: auto;" />
+  <img src="assets/images/test2.jpg" alt="" style="width: 50%; height: auto;" />
 </a>
 
 Darmstadt, Luisenplatz, Monday 27/01/2025.

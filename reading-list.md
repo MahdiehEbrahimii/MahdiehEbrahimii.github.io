@@ -6,7 +6,7 @@ icon: fa-book
 order: 3
 ---
 
-<a href="#" class="image featured"><img src="assets/images/" alt="" /></a>
+<a href="#" class="image featured"><img src="assets/images/test1.jpg" alt="" /></a>
 
 1. Robert Burton: *The Anatomy of Melancholy*
 2. Robert Musil: *The Man Without Qualities*

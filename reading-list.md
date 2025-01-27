@@ -6,7 +6,7 @@ icon: fa-book
 order: 3
 ---
 
-I take random photos and here are some of them:
+<a href="#" class="image featured"><img src="assets/images/" alt="" /></a>
 
 1. Robert Burton: *The Anatomy of Melancholy*
 2. Robert Musil: *The Man Without Qualities*

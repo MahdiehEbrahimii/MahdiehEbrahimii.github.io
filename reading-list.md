@@ -1,12 +1,12 @@
 ---
 title: Photo Gallery
-subtitle: a list of books I read
+subtitle: I take random photos and here are some of them:
 layout: "page"
 icon: fa-book
 order: 3
 ---
 
-I love books! Here are some I'm reading now:
+I take random photos and here are some of them:
 
 1. Robert Burton: *The Anatomy of Melancholy*
 2. Robert Musil: *The Man Without Qualities*
